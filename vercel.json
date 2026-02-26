@@ -1,5 +1,5 @@
 {
     "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-    "buildCommand": "flutter build web --base-href=/flutter-app/",
+    "buildCommand": "npx @flutter-community/flutter-builder -v 3.22.2 --build-command='flutter build web --base-href=/flutter-app/'",
     "outputDirectory": "build/web"
   }
