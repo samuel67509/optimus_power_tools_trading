@@ -1,3 +1,5 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+    "buildCommand": "flutter build web --base-href=/flutter-app/",
+    "outputDirectory": "build/web"
   }
